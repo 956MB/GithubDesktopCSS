@@ -3613,7 +3613,7 @@ body.platform-win32 .list {
       background-color: var(--tab-bar-active-color);
       color: var(--box-selected-active-text-color); }
     .tab-bar.vertical .tab-bar-item:not(.selected) .icon {
-      color: #6a737d; }
+      color: #7c7c7c; }
     .tab-bar.vertical .tab-bar-item:not(.selected):hover {
       background: var(--tab-bar-hover-background-color); }
     .tab-bar.vertical .tab-bar-item .icon {
