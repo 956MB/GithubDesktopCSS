@@ -843,7 +843,7 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
    * If changed, update titleBarHeight in 'app/src/ui/dialog/dialog.tsx'
   */
   --win32-title-bar-height: 28px;
-  --win32-title-bar-background-color: #2e2e2e; /*CHANGED*/
+  --win32-title-bar-background-color: #24292e; /*CHANGED*/
   /**
    * The height of the title bar area on darwin platforms
    * If changed, update titleBarHeight in 'app/src/ui/dialog/dialog.tsx'
@@ -871,7 +871,7 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
   --toolbar-button-border-color: black;
   --toolbar-button-secondary-color: var(--toolbar-text-secondary-color);
   --toolbar-button-hover-color: #fff;
-  --toolbar-button-hover-background-color: #3b3b3b; /*CHANGED*/
+  --toolbar-button-hover-background-color: #2f363d;
   --toolbar-button-hover-border-color: var(--toolbar-button-border-color);
   --toolbar-button-focus-background-color: #2f363d;
   --toolbar-button-active-color: var(--text-color);
@@ -1066,7 +1066,7 @@ body.theme-dark {
   --text-color: #d1d5da;
   --text-secondary-color: #a7a7a7; /*CHANGED*/
   --background-color: #2d2d2d; /*blue: 24292e*/ /*CHANGED*/
-  --button-background: #0366d6;
+  --button-background: #0366d6; /*CHANGED*/
   --button-hover-background: #0372ef;
   --button-text-color: #fff;
   --button-focus-border-color: #005cc5;
@@ -1077,6 +1077,7 @@ body.theme-dark {
   --secondary-button-text-color: var(--text-color);
   --secondary-button-focus-shadow-color: rgba(225, 228, 232, 0.75);
   --secondary-button-focus-border-color: #d1d5da;
+  --win32-title-bar-background-color: #2e2e2e; /*CHANGED*/
   /**
    * Color for icons that are placed on top of a colored backing
    * (like a circle badge icon)
@@ -4920,7 +4921,7 @@ dialog#push-needs-pull-warning {
    * If changed, update titleBarHeight in 'app/src/ui/dialog/dialog.tsx'
   */
   --win32-title-bar-height: 28px;
-  --win32-title-bar-background-color: #2e2e2e;
+  --win32-title-bar-background-color: #24292e;
   /**
    * The height of the title bar area on darwin platforms
    * If changed, update titleBarHeight in 'app/src/ui/dialog/dialog.tsx'
@@ -4948,7 +4949,7 @@ dialog#push-needs-pull-warning {
   --toolbar-button-border-color: black;
   --toolbar-button-secondary-color: var(--toolbar-text-secondary-color);
   --toolbar-button-hover-color: #fff;
-  --toolbar-button-hover-background-color: #3e3e3e;
+  --toolbar-button-hover-background-color: #2f363d;
   --toolbar-button-hover-border-color: var(--toolbar-button-border-color);
   --toolbar-button-focus-background-color: #2f363d;
   --toolbar-button-active-color: var(--text-color);
@@ -6752,7 +6753,7 @@ dialog#rebase .dialog-footer {
    * If changed, update titleBarHeight in 'app/src/ui/dialog/dialog.tsx'
   */
   --win32-title-bar-height: 28px;
-  --win32-title-bar-background-color: #2e2e2e;
+  --win32-title-bar-background-color: #24292e;
   /**
    * The height of the title bar area on darwin platforms
    * If changed, update titleBarHeight in 'app/src/ui/dialog/dialog.tsx'
@@ -6780,7 +6781,7 @@ dialog#rebase .dialog-footer {
   --toolbar-button-border-color: black;
   --toolbar-button-secondary-color: var(--toolbar-text-secondary-color);
   --toolbar-button-hover-color: #fff;
-  --toolbar-button-hover-background-color: #3b3b3b;
+  --toolbar-button-hover-background-color: #2f363d;
   --toolbar-button-hover-border-color: var(--toolbar-button-border-color);
   --toolbar-button-focus-background-color: #2f363d;
   --toolbar-button-active-color: var(--text-color);
