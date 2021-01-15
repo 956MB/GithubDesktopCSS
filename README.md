@@ -1,6 +1,6 @@
 # "Grey"
 
-<img src="https://raw.githubusercontent.com/Bloumbs/GithubDesktopGrey/master/screenshots/GithubDesktopGrey.png" width="900">
+<img src="https://raw.githubusercontent.com/Bloumbs/GithubDesktopCSS/master/screenshots/GithubDesktopGrey.png" width="900">
 
 # INSTALL: 
 
@@ -8,7 +8,7 @@
 
 *BTW: This manual method of replacing `renderer.css` gets undone with new Github Desktop updates.*
 
-1. Replace the original `renderer.css` in [Github Desktop](https://desktop.github.com/) app folder with the *["Grey"](https://github.com/Bloumbs/GithubDesktopGrey/blob/master/Grey/renderer.css)* or *["Hyper"](https://github.com/Bloumbs/GithubDesktopGrey/blob/master/Hyper/renderer.css)* `renderer.css` from this repo.
+1. Replace the original `renderer.css` in [Github Desktop](https://desktop.github.com/) app folder with the *["Grey"](https://github.com/Bloumbs/GithubDesktopCSS/blob/master/Grey/renderer.css)* or *["Hyper"](https://github.com/Bloumbs/GithubDesktopCSS/blob/master/Hyper/renderer.css)* `renderer.css` from this repo.
 
 *Paths:*
 
