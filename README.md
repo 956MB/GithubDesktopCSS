@@ -1,10 +1,4 @@
-# "Grey"
-
-<img src="https://raw.githubusercontent.com/Bloumbs/GithubDesktopCSS/master/screenshots/GithubDesktopGrey.png" width="900">
-
-# "Hyper"
-
-<img src="https://raw.githubusercontent.com/Bloumbs/GithubDesktopCSS/master/screenshots/GithubDesktopHyper.png" width="900">
+<img src="https://raw.githubusercontent.com/Bloumbs/GithubDesktopCSS/master/screenshots/GithubDesktopCSS.gif" width="900">
 
 # INSTALL: 
 
