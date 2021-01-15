@@ -843,7 +843,7 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
    * If changed, update titleBarHeight in 'app/src/ui/dialog/dialog.tsx'
   */
   --win32-title-bar-height: 28px;
-  --win32-title-bar-background-color: #2e2e2e;
+  --win32-title-bar-background-color: #2e2e2e; /*CHANGED*/
   /**
    * The height of the title bar area on darwin platforms
    * If changed, update titleBarHeight in 'app/src/ui/dialog/dialog.tsx'
@@ -871,7 +871,7 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
   --toolbar-button-border-color: black;
   --toolbar-button-secondary-color: var(--toolbar-text-secondary-color);
   --toolbar-button-hover-color: #fff;
-  --toolbar-button-hover-background-color: #3b3b3b;
+  --toolbar-button-hover-background-color: #3b3b3b; /*CHANGED*/
   --toolbar-button-hover-border-color: var(--toolbar-button-border-color);
   --toolbar-button-focus-background-color: #2f363d;
   --toolbar-button-active-color: var(--text-color);
@@ -1037,9 +1037,9 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
   --path-segment-background: #f1f8ff;
   --path-segment-padding: var(--spacing-third);
   /** Diverging notification banner colors */
-  --notification-banner-background: #f1f8ff;
-  --notification-banner-border-color: #c8e1ff;
-  --notification-ref-background: rgba(255, 255, 255, 0.75);
+  --notification-banner-background: #f1f8ff; /*CHANGED*/
+  --notification-banner-border-color: #f8f8f8; /*CHANGED*/
+  --notification-ref-background: rgba(255, 255, 255, 0.75); /*CHANGED*/
   --easing-ease-out-back: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   --easing-ease-in-back: cubic-bezier(0.6, -0.28, 0.735, 0.045);
   --easing-ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
@@ -1052,10 +1052,10 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
   --pr-open-icon-color: #28a745;
   --pr-draft-icon-color: #6a737d;
   --call-to-action-bubble-border-color: #28a745;
-  --call-to-action-bubble-color: #28a745; }
+  --call-to-action-bubble-color: #28a745; } /*CHANGED*/
 
 ::backdrop {
-  --overlay-background-color: rgba(0, 0, 0, 0.4); }
+  --overlay-background-color: rgba(0, 0, 0, 0.4); } /*CHANGED*/
 
 body.theme-dark {
   --color-new: #28a745;
@@ -1064,15 +1064,15 @@ body.theme-dark {
   --color-renamed: #0366d6;
   --color-conflicted: #f66a0a;
   --text-color: #d1d5da;
-  --text-secondary-color: #a7a7a7;
-  --background-color: #2d2d2d; /*blue: 24292e*/
+  --text-secondary-color: #a7a7a7; /*CHANGED*/
+  --background-color: #2d2d2d; /*blue: 24292e*/ /*CHANGED*/
   --button-background: #0366d6;
   --button-hover-background: #0372ef;
   --button-text-color: #fff;
   --button-focus-border-color: #005cc5;
   --link-button-color: #3090ff;
   --link-button-hover-color: #2188ff;
-  --secondary-button-background: #404040; /*blue: 2f363d*/
+  --secondary-button-background: #404040; /*blue: 2f363d*/ /*CHANGED*/
   --secondary-button-hover-background: var(--secondary-button-background);
   --secondary-button-text-color: var(--text-color);
   --secondary-button-focus-shadow-color: rgba(225, 228, 232, 0.75);
@@ -1096,13 +1096,13 @@ body.theme-dark {
    * Note: Only applies to win32 platforms
    */
   --scroll-bar-thumb-background-color-active: rgba(255, 255, 255, 0.5);
-  --box-background-color: #232323; /*blue: 1d2125*/
-  --box-alt-background-color: #3a3a3a; /*blue: 2f363d*/
+  --box-background-color: #232323; /*blue: 1d2125*/ /*CHANGED*/
+  --box-alt-background-color: #3a3a3a; /*blue: 2f363d*/ /*CHANGED*/
   /**
    * Background color for skeleton or "loading" boxes
    */
-  --box-skeleton-background-color: #525252; /*blue: 444d56*/
-  --skeleton-background-gradient: -webkit-linear-gradient(left, rgba(43, 43, 43, 0) 0%, rgba(43, 43, 43, 0.5) 50%, rgba(44, 44, 44, 0) 100%);
+  --box-skeleton-background-color: #525252; /*blue: 444d56*/ /*CHANGED*/
+  --skeleton-background-gradient: -webkit-linear-gradient(left, rgba(43, 43, 43, 0) 0%, rgba(43, 43, 43, 0.5) 50%, rgba(44, 44, 44, 0) 100%); /*CHANGED*/
   /**
    * Border color for boxes.
    */
@@ -1111,7 +1111,7 @@ body.theme-dark {
   /**
    * Background color for selected boxes without keyboard focus
    */
-  --box-selected-background-color: #565656; /*blue: 444d56*/
+  --box-selected-background-color: #565656; /*blue: 444d56*/ /*CHANGED*/
   /**
    * Text color for when a user hovers over a boxe with a
    * pointing device. Should not be used by boxes that doesn't
@@ -1132,7 +1132,7 @@ body.theme-dark {
   /**
    * Border color for selected boxes without keyboard focus
    */
-  --box-selected-border-color: #a1a1a1;
+  --box-selected-border-color: #a1a1a1; /*CHANGED*/
   /**
    * Background color for selected boxes with active keyboard focus
    */
@@ -1144,17 +1144,17 @@ body.theme-dark {
   /**
    * Border color for selected boxes with active keyboard focus
    */
-  --box-selected-active-border-color: #a3a3a3;
+  --box-selected-active-border-color: #a3a3a3; /*CHANGED*/
   /**
    * Gradient used to indicate that content is overflowing, intended
    * for use when content can be expanded through other means than
    * scrolling.
    */
-  --box-overflow-shadow-background: linear-gradient(180deg, rgba(36, 41, 46, 0) 0%, #2e2e2e 90%, #303030 100%);
+  --box-overflow-shadow-background: linear-gradient(180deg, rgba(36, 41, 46, 0) 0%, #2e2e2e 90%, #303030 100%); /*CHANGED*/
   /**
    * Placeholder color for input boxes
    */
-  --box-placeholder-color: #a3a3a3;
+  --box-placeholder-color: #a3a3a3; /*CHANGED*/
   /**
    * Author input (co-authors)
    */
@@ -1163,7 +1163,7 @@ body.theme-dark {
   --base-border: 1px solid var(--box-border-color);
   --shadow-color: rgba(0, 0, 0, 0.5);
   --base-box-shadow: 0 2px 7px var(--shadow-color);
-  --toolbar-background-color: #232323; /*blue: 1d2125*/
+  --toolbar-background-color: #232323; /*blue: 1d2125*/ /*CHANGED*/
   --toolbar-border-color: var(--box-border-color);
   --toolbar-text-color: var(--text-color);
   --toolbar-text-secondary-color: var(--text-secondary-color);
@@ -1172,16 +1172,16 @@ body.theme-dark {
   --toolbar-button-border-color: var(--box-border-color);
   --toolbar-button-secondary-color: var(--toolbar-text-secondary-color);
   --toolbar-button-hover-color: #fff;
-  --toolbar-button-hover-background-color: #3b3b3b; /*blue: 2f363d*/
+  --toolbar-button-hover-background-color: #3b3b3b; /*blue: 2f363d*/ /*CHANGED*/
   --toolbar-button-hover-border-color: var(--toolbar-button-border-color);
-  --toolbar-button-focus-background-color: #3d3d3d; /*blue: 2f363d*/
+  --toolbar-button-focus-background-color: #3d3d3d; /*blue: 2f363d*/ /*CHANGED*/
   --toolbar-button-active-color: var(--text-color);
   --toolbar-button-active-background-color: var(--background-color);
   --toolbar-button-active-border-color: var(--box-border-color);
-  --toolbar-button-progress-color: #3f3f3f; /*blue: 2f363d*/
-  --toolbar-button-focus-progress-color: #555555; /*blue: 444d56*/
-  --toolbar-button-hover-progress-color: #585858; /*blue: 444d56*/
-  --toolbar-dropdown-open-progress-color: #e4e4e4; /*blue: e1e4e8*/
+  --toolbar-button-progress-color: #3f3f3f; /*blue: 2f363d*/ /*CHANGED*/
+  --toolbar-button-focus-progress-color: #555555; /*blue: 444d56*/ /*CHANGED*/
+  --toolbar-button-hover-progress-color: #585858; /*blue: 444d56*/ /*CHANGED*/
+  --toolbar-dropdown-open-progress-color: #e4e4e4; /*blue: e1e4e8*/ /*CHANGED*/
   /**
     * App menu bar colors (Windows/Linux only)
     */
@@ -1189,37 +1189,37 @@ body.theme-dark {
   --app-menu-button-hover-color: var(--toolbar-button-hover-color);
   --app-menu-button-hover-background-color: var(--toolbar-button-hover-background-color);
   --app-menu-button-active-color: var(--text-color);
-  --app-menu-button-active-background-color: #3d3d3d; /*blue: 2f363d*/
+  --app-menu-button-active-background-color: #3d3d3d; /*blue: 2f363d*/ /*CHANGED*/
   --app-menu-pane-color: var(--text-color);
   --app-menu-pane-secondary-color: var(--text-secondary-color);
-  --app-menu-pane-background-color: #3d3d3d; /*blue: 2f363d*/
-  --app-menu-divider-color: #696969; /*blue: 586069*/
+  --app-menu-pane-background-color: #3d3d3d; /*blue: 2f363d*/ /*CHANGED*/
+  --app-menu-divider-color: #696969; /*blue: 586069*/ /*CHANGED*/
   /**
    * Background color for badges inside of toolbar buttons.
    * Examples of badges are the ahead/behind bubble in the
    * push/pull button and the PR badge in the branch drop
    * down button.
    */
-  --toolbar-badge-background-color: #575757;
-  --toolbar-badge-active-background-color: #535353;
+  --toolbar-badge-background-color: #575757; /*CHANGED*/
+  --toolbar-badge-active-background-color: #535353; /*CHANGED*/
   --tab-bar-active-color: #0366d6;
   --tab-bar-background-color: var(--box-background-color);
-  --tab-bar-hover-background-color: #3e3e3e;
+  --tab-bar-hover-background-color: #3e3e3e; /*CHANGED*/
   /** Count bubble colors when used inside of a tab bar item */
   --tab-bar-count-color: var(--text-color);
-  --tab-bar-count-background-color: #565656;
+  --tab-bar-count-background-color: #565656; /*CHANGED*/
   /**
     * Badge colors when used inside of list items.
     * Example of this is the ahead/behind indicators inside
     * of the repository list.
     */
   --list-item-badge-color: var(--text-color);
-  --list-item-badge-background-color: #696969;
+  --list-item-badge-background-color: #696969; /*CHANGED*/
   --list-item-selected-badge-color: #fff;
-  --list-item-selected-badge-background-color: #7c7c7c;
-  --list-item-selected-active-badge-color: #2e2e2e;
+  --list-item-selected-badge-background-color: #7c7c7c; /*CHANGED*/
+  --list-item-selected-active-badge-color: #2e2e2e; /*CHANGED*/
   --list-item-selected-active-badge-background-color: #fff;
-  --list-item-hover-background-color: #3e3e3e;
+  --list-item-hover-background-color: #3e3e3e; /*CHANGED*/
   /**
    * Toast notifications are shown temporarily for things like the zoom
    * percentage changing or the app toggling between full screen and normal
@@ -1248,9 +1248,9 @@ body.theme-dark {
    * Diff view
    */
   --diff-text-color: var(--text-color);
-  --diff-border-color: #3d3d3d;
-  --diff-gutter-color: #3d3d3d;
-  --diff-gutter-background-color: #232323;
+  --diff-border-color: #3d3d3d; /*CHANGED*/
+  --diff-gutter-color: #3d3d3d; /*CHANGED*/
+  --diff-gutter-background-color: #232323; /*CHANGED*/
   --diff-line-number-color: var(--text-secondary-color);
   --diff-line-number-column-width: 50px;
   --diff-selected-background-color: #044289;
@@ -1269,10 +1269,10 @@ body.theme-dark {
   --diff-delete-gutter-background-color: #2f090a;
   --diff-delete-inner-background-color: #b31d28;
   --diff-delete-text-color: #ffdce0;
-  --diff-hunk-background-color: #232323;
-  --diff-hunk-border-color: #383838;
-  --diff-hunk-gutter-color: #383838;
-  --diff-hunk-gutter-background-color: #1b1b1b;
+  --diff-hunk-background-color: #232323; /*CHANGED*/
+  --diff-hunk-border-color: #383838; /*CHANGED*/
+  --diff-hunk-gutter-color: #383838; /*CHANGED*/
+  --diff-hunk-gutter-background-color: #1b1b1b; /*CHANGED*/
   --diff-hunk-text-color: var(--text-secondary-color);
   --diff-hover-background-color: #0366d6;
   --diff-hover-border-color: #2188ff;
@@ -1286,7 +1286,7 @@ body.theme-dark {
   --diff-delete-hover-border-color: #b31d28;
   --diff-delete-hover-gutter-color: #b31d28;
   --diff-delete-hover-text-color: var(--text-color);
-  --diff-empty-row-background-color: #2c2c2c;
+  --diff-empty-row-background-color: #2c2c2c; /*CHANGED*/
   --diff-empty-row-gutter-background-color: var(--diff-gutter-background-color);
   --syntax-variable-color: #b392f0;
   --syntax-alt-variable-color: #79b8ff;
@@ -1295,7 +1295,7 @@ body.theme-dark {
   --syntax-string-color: #ffab70;
   --syntax-qualifier-color: #b392f0;
   --syntax-type-color: #f97583;
-  --syntax-comment-color: #9e9e9e;
+  --syntax-comment-color: #9e9e9e; /*CHANGED*/
   --syntax-tag-color: #34d058;
   --syntax-attribute-color: #b392f0;
   --syntax-link-color: #79b8ff;
@@ -1310,19 +1310,19 @@ body.theme-dark {
   --dialog-warning-color: #f9c513;
   --dialog-error-color: #cb2431;
   /** Inline paths and code */
-  --path-segment-background: #555555;
+  --path-segment-background: #555555; /*CHANGED*/
   /** Diverging notification banner colors */
-  --notification-banner-background: #3d3d3d;
-  --notification-banner-border-color: #585858;
-  --notification-ref-background: #575757;
+  --notification-banner-background: #3d3d3d; /*CHANGED*/
+  --notification-banner-border-color: #585858; /*CHANGED*/
+  --notification-ref-background: #575757; /*CHANGED*/
   /** merge/rebase status indicators */
   --status-pending-color: #dbab09;
   --status-error-color: #d73a49;
   --status-success-color: #28a745;
   --pr-open-icon-color: #28a745;
-  --pr-draft-icon-color: #a3a3a3;
+  --pr-draft-icon-color: #a3a3a3; /*CHANGED*/
   --call-to-action-bubble-background-color: #0366d6;
-  --call-to-action-bubble-color: #fff; }
+  --call-to-action-bubble-color: #fff; } /*CHANGED*/
   body.theme-dark .blankslate-image {
     filter: invert() grayscale(1) brightness(8) contrast(0.6); }
 
@@ -1362,7 +1362,7 @@ body {
   font-size: var(--font-size);
   line-height: 1.5;
   color: var(--text-color);
-  background-color: var(--background-color); }
+  background-color: var(--background-color); } /*CHANGED*/
 
 :not(input):not(textarea), :not(input):not(textarea)::after, :not(input):not(textarea)::before {
   -webkit-user-select: none;
@@ -1590,7 +1590,7 @@ body.platform-win32 ::-webkit-scrollbar {
   flex-direction: row; }
   body.platform-darwin #desktop-app-title-bar {
     height: var(--darwin-title-bar-height);
-    background: linear-gradient(to bottom, #3b3f46 0%, #2b2e33 100%);
+    background: linear-gradient(to bottom, #2e2e2e 0%, #2e2e2e 100%); /*CHANGED*/
     border-bottom: 1px solid #000; }
   body.platform-win32 #desktop-app-title-bar {
     height: var(--win32-title-bar-height);
