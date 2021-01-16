@@ -6,7 +6,7 @@
 
 *BTW: This manual method of replacing `renderer.css` gets undone with new Github Desktop updates.*
 
-1. Replace the original `renderer.css` in [Github Desktop](https://desktop.github.com/) app folder with the *["Grey"](https://github.com/Bloumbs/GithubDesktopCSS/blob/master/Grey/renderer.css)* or *["Hyper"](https://github.com/Bloumbs/GithubDesktopCSS/blob/master/Hyper/renderer.css)* `renderer.css` from this repo.
+1. Replace the original `renderer.css` in [Github Desktop](https://desktop.github.com/) app folder with the *[Grey](https://github.com/Bloumbs/GithubDesktopCSS/blob/master/Grey/renderer.css)*, *[OLED](https://github.com/Bloumbs/GithubDesktopCSS/blob/master/OLED/renderer.css)* or *[Red](https://github.com/Bloumbs/GithubDesktopCSS/blob/master/Red/renderer.css)* `renderer.css` from this repo.
 
 *Paths:*
 
