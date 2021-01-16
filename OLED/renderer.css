@@ -1064,7 +1064,7 @@ body.theme-dark {
   --color-modified: #dbab09;
   --color-renamed: #0366d6;
   --color-conflicted: #f66a0a;
-  --text-color: #d1d5da;
+  --text-color: #d8d8d8; /*CHANGED*/
   --text-secondary-color: #a7a7a7; /*CHANGED*/
   --background-color: #000000; /*blue: 24292e*/ /*CHANGED*/
   --button-background: #0366d6; /*CHANGED*/
@@ -1153,7 +1153,7 @@ body.theme-dark {
    * for use when content can be expanded through other means than
    * scrolling.
    */
-  --box-overflow-shadow-background: linear-gradient(180deg, rgba(36, 41, 46, 0) 0%, #2e2e2e 90%, #303030 100%); /*CHANGED*/
+  --box-overflow-shadow-background: linear-gradient(180deg, rgba(44, 44, 44, 0) 0%, #000000 90%, #000000 100%); /*CHANGED*/
   /**
    * Placeholder color for input boxes
    */
