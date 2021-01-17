@@ -1080,6 +1080,9 @@ body.theme-dark {
   --secondary-button-focus-border-color: #5c5c5c;
   --win32-title-bar-background-color: #2e2e2e; /*CHANGED*/
   --app-outer-border: #2e2e2e; /*CHANGED*/
+  --tip-box-background-color: rgba(218, 218, 218, 0); /*ADDED*/
+  --tip-box-border-color: #f1f1f1; /*ADDED*/
+
   /**
    * Color for icons that are placed on top of a colored backing
    * (like a circle badge icon)
