@@ -1193,8 +1193,8 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
     --alt-focus-color: #000000; /*CHANGED*/
     --text-field-height: 25px;
     --text-field-focus-shadow-color: rgba(44, 44, 44, 0.25); /*CHANGED*/
-    --primary-suggested-action-background: #f1f8ff;
-    --primary-suggested-action-border-color: #c8e1ff;
+    --primary-suggested-action-background: #f0f0f0; /*CHANGED*/
+    --primary-suggested-action-border-color: #1b1b1b; /*CHANGED*/
     --suggested-action-icon-color: #2188ff;
     --diff-line-padding-y: 2px;
     --diff-text-color: #24292e;
@@ -5922,8 +5922,8 @@ dialog#push-needs-pull-warning .spin {
     --alt-focus-color: #000000; /*CHANGED*/
     --text-field-height: 25px;
     --text-field-focus-shadow-color: rgba(44, 44, 44, 0.25); /*CHANGED*/
-    --primary-suggested-action-background: #f1f8ff;
-    --primary-suggested-action-border-color: #c8e1ff;
+    --primary-suggested-action-background: #f0f0f0; /*CHANGED*/
+    --primary-suggested-action-border-color: #1b1b1b; /*CHANGED*/
     --suggested-action-icon-color: #2188ff;
     --diff-line-padding-y: 2px;
     --diff-text-color: #24292e;
@@ -7989,8 +7989,8 @@ dialog#rebase .dialog-footer {
     --alt-focus-color: #000000; /*CHANGED*/
     --text-field-height: 25px;
     --text-field-focus-shadow-color: rgba(44, 44, 44, 0.25); /*CHANGED*/
-    --primary-suggested-action-background: #f1f8ff;
-    --primary-suggested-action-border-color: #c8e1ff;
+    --primary-suggested-action-background: #f0f0f0; /*CHANGED*/
+    --primary-suggested-action-border-color: #1b1b1b; /*CHANGED*/
     --suggested-action-icon-color: #2188ff;
     --diff-line-padding-y: 2px;
     --diff-text-color: #24292e;
