@@ -1201,7 +1201,7 @@ body.theme-dark {
    * push/pull button and the PR badge in the branch drop
    * down button.
    */
-  --toolbar-badge-background-color: #575757; /*CHANGED*/
+  --toolbar-badge-background-color: #750000; /*CHANGED*/
   --toolbar-badge-active-background-color: #535353; /*CHANGED*/
   --tab-bar-active-color: #d60303; /*CHANGED*/
   --tab-bar-background-color: var(--box-background-color);
@@ -1217,9 +1217,9 @@ body.theme-dark {
   --list-item-badge-color: var(--text-color);
   --list-item-badge-background-color: #750000; /*CHANGED*/
   --list-item-selected-badge-color: #fff;
-  --list-item-selected-badge-background-color: #7c7c7c; /*CHANGED*/
-  --list-item-selected-active-badge-color: #2e2e2e; /*CHANGED*/
-  --list-item-selected-active-badge-background-color: #fff;
+  --list-item-selected-badge-background-color: #850000; /*CHANGED*/
+  --list-item-selected-active-badge-color: #fff; /*CHANGED*/
+  --list-item-selected-active-badge-background-color: #850000; /*CHANGED*/
   --list-item-hover-background-color: #531919; /*CHANGED*/
   /**
    * Toast notifications are shown temporarily for things like the zoom
@@ -1242,9 +1242,9 @@ body.theme-dark {
   /**
    * Blankslate actions, see `BlankslateAction` component.
    */
-  --primary-suggested-action-background: #05264c;
-  --primary-suggested-action-border-color: #044289;
-  --suggested-action-icon-color: #2188ff;
+   --primary-suggested-action-background: #640b0b; /*CHANGED*/
+   --primary-suggested-action-border-color: #960404; /*CHANGED*/
+   --suggested-action-icon-color: #ff2121; /*CHANGED*/
   /**
    * Diff view
    */
@@ -1311,7 +1311,7 @@ body.theme-dark {
   --dialog-warning-color: #f9c513;
   --dialog-error-color: #cb2431;
   /** Inline paths and code */
-  --path-segment-background: #555555; /*CHANGED*/
+  --path-segment-background: #750000; /*CHANGED*/
   /** Diverging notification banner colors */
   --notification-banner-background: #3d3d3d; /*CHANGED*/
   --notification-banner-border-color: #585858; /*CHANGED*/
@@ -1636,10 +1636,10 @@ body.platform-win32 ::-webkit-scrollbar {
       #desktop-app-title-bar .window-controls button:focus {
         outline: none; }
       #desktop-app-title-bar .window-controls button:hover {
-        background-color: #888;
+        background-color: var(--app-menu-button-hover-background-color); /*CHANGED*/
         color: #fff; }
         #desktop-app-title-bar .window-controls button:hover:active {
-          background-color: #666;
+          background-color: var(--app-menu-button-hover-background-color); /*CHANGED*/
           transition: none; }
       #desktop-app-title-bar .window-controls button.close:hover {
         background-color: #e81123;
@@ -4394,7 +4394,7 @@ progress {
     box-shadow: 0 0 0 2px var(--text-field-focus-shadow-color); }
 
 .link-button-component {
-  color: #0037ff; /*CHANGED*/
+  color: #ff0000; /*CHANGED*/
   text-decoration: none;
   cursor: pointer;
   display: inline-flex;
