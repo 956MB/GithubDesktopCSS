@@ -735,7 +735,7 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
   --secondary-button-background: #fafbfc;
   --secondary-button-hover-background: #fff;
   --secondary-button-text-color: var(--text-color);
-  --secondary-button-focus-shadow-color: rgba(225, 228, 232, 0.75);
+  --secondary-button-focus-shadow-color: #e1e4e8bf;
   --secondary-button-focus-border-color: #d1d5da;
   /**
    * Color for icons that are placed on top of a colored backing
@@ -849,6 +849,8 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
    * If changed, update titleBarHeight in 'app/src/ui/dialog/dialog.tsx'
   */
   --darwin-title-bar-height: 22px;
+  --options-items-color: #6c737aea; /*ADDED*/
+  --input-hue-rotate: hue-rotate(0deg) grayscale(0%); /*ADDED*/
   --spacing: 10px;
   --spacing-double: calc(var(--spacing) * 2);
   --spacing-triple: calc(var(--spacing) * 3);
@@ -901,6 +903,7 @@ http://ethanschoonover.com/solarized/img/solarized-palette.png
     */
   --toolbar-badge-background-color: #586069;
   --toolbar-badge-active-background-color: #e1e4e8;
+  --toolbar-badge-active-color: #24292e; /*ADDED*/
   --tab-bar-height: 29px;
   --tab-bar-active-color: #0366d6;
   --tab-bar-background-color: #fff;
@@ -1163,6 +1166,8 @@ body.theme-dark {
    * Author input (co-authors)
    */
   --co-author-tag-background-color: #032f62;
+  --options-items-color: #7c6262; /*ADDED*/
+  --input-hue-rotate: hue-rotate(140deg) grayscale(0%); /*ADDED*/
   --co-author-tag-border-color: #044289;
   --base-border: 1px solid var(--box-border-color);
   --shadow-color: rgba(0, 0, 0, 0.5);
@@ -1205,7 +1210,8 @@ body.theme-dark {
    * down button.
    */
   --toolbar-badge-background-color: #750000; /*CHANGED*/
-  --toolbar-badge-active-background-color: #535353; /*CHANGED*/
+  --toolbar-badge-active-background-color: #750000; /*CHANGED*/
+  --toolbar-badge-active-color: #dfd3d3; /*ADDED*/
   --tab-bar-active-color: #d60303; /*CHANGED*/
   --tab-bar-background-color: var(--box-background-color);
   --tab-bar-hover-background-color: #531919; /*CHANGED*/
@@ -3618,7 +3624,7 @@ body.platform-win32 .list {
       background-color: var(--tab-bar-active-color);
       color: var(--box-selected-active-text-color); }
     .tab-bar.vertical .tab-bar-item:not(.selected) .icon {
-      color: #7c6262; }
+      color: var(--options-items-color); }
     .tab-bar.vertical .tab-bar-item:not(.selected):hover {
       background: var(--tab-bar-hover-background-color); }
     .tab-bar.vertical .tab-bar-item .icon {
@@ -4336,7 +4342,7 @@ progress {
     margin-top: var(--spacing); }
 
 .radio-button-component {
-    filter: hue-rotate(140deg) !important;
+    filter: var(--input-hue-rotate) !important;
   display: flex;
   align-items: center; }
   .radio-button-component + .radio-button-component {
@@ -4397,7 +4403,7 @@ progress {
     box-shadow: 0 0 0 2px var(--text-field-focus-shadow-color); }
 
 .link-button-component {
-  color: #ff0000; /*CHANGED*/
+  color: var(--link-button-color); /*CHANGED*/
   text-decoration: none;
   cursor: pointer;
   display: inline-flex;
@@ -4514,7 +4520,7 @@ progress {
       color: var(--text-secondary-color); }
 
 .checkbox-component {
-    filter: hue-rotate(140deg) !important;
+    filter: var(--input-hue-rotate) !important;
   display: flex;
   flex-direction: row;
   align-items: center; }
@@ -4933,6 +4939,8 @@ dialog#push-needs-pull-warning {
    * If changed, update titleBarHeight in 'app/src/ui/dialog/dialog.tsx'
   */
   --darwin-title-bar-height: 22px;
+  --options-items-color: #6c737aea; /*ADDED*/
+  --input-hue-rotate: hue-rotate(0deg) grayscale(0%); /*ADDED*/
   --spacing: 10px;
   --spacing-double: calc(var(--spacing) * 2);
   --spacing-triple: calc(var(--spacing) * 3);
@@ -4985,6 +4993,7 @@ dialog#push-needs-pull-warning {
     */
   --toolbar-badge-background-color: #586069;
   --toolbar-badge-active-background-color: #e1e4e8;
+  --toolbar-badge-active-color: #24292e; /*ADDED*/
   --tab-bar-height: 29px;
   --tab-bar-active-color: #0366d6;
   --tab-bar-background-color: #fff;
@@ -6140,10 +6149,14 @@ fieldset.vertical-segmented-control {
   color: #28a745; }
 
 .toolbar-dropdown.open .pr-badge {
-  background: var(--toolbar-badge-active-background-color); }
+  background: var(--toolbar-badge-active-background-color);
+  color: var(--toolbar-badge-active-color);
+}
 
 .toolbar-dropdown:not(.open) .pr-badge {
-  background: var(--toolbar-badge-background-color); }
+  background: var(--toolbar-badge-background-color);
+  color: var(--toolbar-badge-active-color);
+}
 
 .pr-badge {
   --height: 18px;
@@ -6765,6 +6778,8 @@ dialog#rebase .dialog-footer {
    * If changed, update titleBarHeight in 'app/src/ui/dialog/dialog.tsx'
   */
   --darwin-title-bar-height: 22px;
+  --options-items-color: #6c737aea; /*ADDED*/
+  --input-hue-rotate: hue-rotate(0deg) grayscale(0%); /*ADDED*/
   --spacing: 10px;
   --spacing-double: calc(var(--spacing) * 2);
   --spacing-triple: calc(var(--spacing) * 3);
@@ -6817,6 +6832,7 @@ dialog#rebase .dialog-footer {
     */
   --toolbar-badge-background-color: #586069;
   --toolbar-badge-active-background-color: #e1e4e8;
+  --toolbar-badge-active-color: #24292e; /*ADDED*/
   --tab-bar-height: 29px;
   --tab-bar-active-color: #0366d6;
   --tab-bar-background-color: #fff;
