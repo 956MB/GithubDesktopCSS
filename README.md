@@ -4,9 +4,9 @@
 
 *Recommend making backup of original `renderer.css` in app directory.*
 
-*This manual method of replacing `renderer.css` gets undone with new Github Desktop updates unfortunately.*
+*\*This manual method of replacing `renderer.css` gets undone with new Github Desktop updates unfortunately.\**
 
-1. Replace the original `renderer.css` in [Github Desktop](https://desktop.github.com/) app folder with the *[Grey](https://github.com/Bloumbs/GithubDesktopCSS/blob/master/Grey/renderer.css)*, *[OLED](https://github.com/Bloumbs/GithubDesktopCSS/blob/master/OLED/renderer.css)*, *[Red](https://github.com/Bloumbs/GithubDesktopCSS/blob/master/Red/renderer.css)* or *[Whitepaper](https://github.com/Bloumbs/GithubDesktopCSS/blob/master/Whitepaper/renderer.css)* `renderer.css` from this repo.
+1. Replace the original `renderer.css` in [Github Desktop](https://desktop.github.com/) app folder with the `renderer.css` from any of the available theme versions [ *[Grey](https://github.com/Bloumbs/GithubDesktopCSS/blob/master/Grey/renderer.css)* | *[OLED](https://github.com/Bloumbs/GithubDesktopCSS/blob/master/OLED/renderer.css)* | *[Red](https://github.com/Bloumbs/GithubDesktopCSS/blob/master/Red/renderer.css)* | *[Whitepaper](https://github.com/Bloumbs/GithubDesktopCSS/blob/master/Whitepaper/renderer.css)* ].
 
 *Paths:*
 
