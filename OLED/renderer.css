@@ -1078,8 +1078,8 @@ body.theme-dark {
   --secondary-button-text-color: var(--text-color);
   --secondary-button-focus-shadow-color: rgba(129, 129, 129, 0.75);
   --secondary-button-focus-border-color: #5c5c5c;
-  --win32-title-bar-background-color: #2e2e2e; /*CHANGED*/
-  --app-outer-border: #2e2e2e; /*CHANGED*/
+  --win32-title-bar-background-color: #141414; /*CHANGED*/
+  --app-outer-border: #141414; /*CHANGED*/
   --tip-box-background-color: rgba(218, 218, 218, 0); /*ADDED*/
   --tip-box-border-color: #f1f1f1; /*ADDED*/
 
@@ -1180,7 +1180,7 @@ body.theme-dark {
   --toolbar-button-hover-color: #fff;
   --toolbar-button-hover-background-color: #0c0c0c; /*blue: 2f363d*/ /*CHANGED*/
   --toolbar-button-hover-border-color: var(--toolbar-button-border-color);
-  --toolbar-button-focus-background-color: #3d3d3d; /*blue: 2f363d*/ /*CHANGED*/
+  --toolbar-button-focus-background-color: #141414; /*blue: 2f363d*/ /*CHANGED*/
   --toolbar-button-active-color: var(--text-color);
   --toolbar-button-active-background-color: var(--background-color);
   --toolbar-button-active-border-color: var(--box-border-color);
@@ -1193,13 +1193,13 @@ body.theme-dark {
     */
   --app-menu-button-color: var(--toolbar-text-color);
   --app-menu-button-hover-color: var(--toolbar-button-hover-color);
-  --app-menu-button-hover-background-color: #3d3d3d;
+  --app-menu-button-hover-background-color: #0c0c0c;
   --app-menu-button-active-color: var(--text-color);
-  --app-menu-button-active-background-color: #3d3d3d; /*blue: 2f363d*/ /*CHANGED*/
+  --app-menu-button-active-background-color: #141414; /*blue: 2f363d*/ /*CHANGED*/
   --app-menu-pane-color: var(--text-color);
   --app-menu-pane-secondary-color: var(--text-secondary-color);
-  --app-menu-pane-background-color: #3d3d3d; /*blue: 2f363d*/ /*CHANGED*/
-  --app-menu-divider-color: #696969; /*blue: 586069*/ /*CHANGED*/
+  --app-menu-pane-background-color: #141414; /*blue: 2f363d*/ /*CHANGED*/
+  --app-menu-divider-color: #000000; /*blue: 586069*/ /*CHANGED*/
   /**
    * Background color for badges inside of toolbar buttons.
    * Examples of badges are the ahead/behind bubble in the
@@ -1642,10 +1642,10 @@ body.platform-win32 ::-webkit-scrollbar {
       #desktop-app-title-bar .window-controls button:focus {
         outline: none; }
       #desktop-app-title-bar .window-controls button:hover {
-        background-color: #888;
+        background-color: var(--app-menu-button-hover-background-color);
         color: #fff; }
         #desktop-app-title-bar .window-controls button:hover:active {
-          background-color: #666;
+          background-color: var(--app-menu-button-hover-background-color);
           transition: none; }
       #desktop-app-title-bar .window-controls button.close:hover {
         background-color: #e81123;
