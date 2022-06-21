@@ -2025,8 +2025,7 @@ body.platform-win32 ::-webkit-scrollbar-thumb:active {
 
 body.platform-darwin #desktop-app-title-bar {
     height: var(--darwin-title-bar-height);
-    background: linear-gradient(to bottom, #2e2e2e 0%, #2e2e2e 100%);
-    /*CHANGED*/
+    background: linear-gradient(to bottom, #2e2e2e 0%, #2e2e2e 100%); /*CHANGED*/
     border-bottom: 1px solid #000
 }
 
